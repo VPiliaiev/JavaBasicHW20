@@ -6,5 +6,6 @@ public class Main {
         for (MusicStyles style : styles) {
             style.playMusic();
         }
+        System.out.println("All music styles have been played.");
     }
 }

@@ -1,9 +1,7 @@
 package com.gmail.valeriipiliaiev;
 
-public class MusicStyles {
-    public void playMusic() {
-        System.out.println("Playing music");
-    }
+abstract class MusicStyles {
+    public abstract void playMusic();
 }
 
 class PopMusic extends MusicStyles {
@@ -26,4 +24,7 @@ class ClassicMusic extends MusicStyles {
         System.out.println("Playing classic music");
     }
 }
+
+
+
 
